@@ -1,4 +1,5 @@
-// next.config.js
-export const config = {
-  matcher: ['/go/:path*'],
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true
 };
+module.exports = nextConfig;
